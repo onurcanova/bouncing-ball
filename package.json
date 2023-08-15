@@ -1,0 +1,20 @@
+{
+  "name": "bouncingball",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@types/chart.js": "^2.9.37",
+    "chart.js": "^4.3.3",
+  }
+}
