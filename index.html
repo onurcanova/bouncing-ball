@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing Ball</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="description-container">
+        <h1 class="heading">Bouncing Ball Simulation</h1>
+        <p class="description">Demonstration of different methods to show numerical costs on the total energy. (no friction env)</p>
+    </div>
+    <div class="marker-container">
+        <span class="marker red">Euler</span>
+        <span class="marker green">Verlet</span>
+    </div>
+    <div class="canvas-container">
+        <canvas id="myCanvas" width="1000" height="320"></canvas>
+    </div> 
+    <div class="chart-container">
+        <span class="chart euler"><canvas id="chartEuler" width="500" height="320"></canvas></span>
+        <span class="graph verlet"><canvas id="chartVerlet" width="500" height="320"></canvas></span>
+    </div>
+    <a href="https://github.com/onurcanova" class="github" target="_blank"><img src="github.png" alt="Ocan Github" /></a>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script> 
+    
+</body>
+</html>

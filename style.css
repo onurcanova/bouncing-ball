@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(57, 73, 101);
+}
+.description-container{
+    text-align: center;
+    
+}
+.heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(255, 242, 204);
+}
+.description {
+    font-size: 18px;
+    color: rgb(255, 242, 204);
+}
+.marker-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.marker {
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.red {
+    border-color: rgb(217, 156, 166); 
+    color: rgb(217, 156, 166); 
+}
+.green {
+    border-color: rgb(147, 189, 179); 
+    color: rgb(147, 189, 179); 
+}
+.canvas-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;   
+}
+canvas {
+    display: block;
+    border: 1px solid rgb(255, 242, 204);
+    border-radius: 5px;
+}
+.chart-container {
+    display: flex;
+    justify-content: center;
+
+}
+.github {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+  }
